@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import nl2br from 'react-nl2br';
 
 import './quotes.css';
 
@@ -13,7 +14,7 @@ const Quote = ({ id, rating, votes, submitted, body, tags }) => (
         <span className="quote-vote-count" title="Quote Vote Count">/<span id="quote-vote-count-1">{votes}</span></span>
         <span className="quote-date" title="Quote Submission Date">{submitted}</span>
       </h3>
-      <blockquote className="quote-body">{body}</blockquote>
+      <blockquote className="quote-body">{nl2br(body)}</blockquote>
 
       <div className="quote-footer">
         <div className="quote-tags">

@@ -38,8 +38,6 @@ const Layout = ({ children }) => (
           <div id="content">
             <h2>{data.site.siteMetadata.title}</h2>
             {children}
-            <footer>
-            </footer>
           </div>
           <div id="footer">
             <p>designed by <a href="https://www.sozialleistungen.info/">sozialleistungen.info</a></p>
