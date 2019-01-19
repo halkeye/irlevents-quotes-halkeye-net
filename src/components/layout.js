@@ -1,8 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { StaticQuery, graphql } from 'gatsby';
+import { StaticQuery, graphql, Link } from 'gatsby';
 
-import Header from './header';
 // import './layout.css'
 import '../style.css';
 
@@ -31,7 +30,7 @@ const Layout = ({ children }) => (
             <div className="leftbox">
               <p className="head">Navigation</p>
               <ul>
-                <li><a className="" href="/" title="Quotes">Quotes</a></li>
+                <li><Link to="/" title="Quotes">Quotes</Link></li>
               </ul>
             </div>
           </div>
@@ -40,13 +39,16 @@ const Layout = ({ children }) => (
             <h2>{data.site.siteMetadata.title}</h2>
             {children}
             <footer>
-              © {new Date().getFullYear()}, Built with
-              {` `}
-              <a href="https://www.gatsbyjs.org">Gatsby</a>
             </footer>
           </div>
           <div id="footer">
             <p>designed by <a href="https://www.sozialleistungen.info/">sozialleistungen.info</a></p>
+            <p>
+              © {new Date().getFullYear()}, Built with
+              {` `}
+              <a href="https://www.gatsbyjs.org">Gatsby</a>
+            </p>
+            <p>Originally based on <a href="http://chirpy.sourceforge.net/">chirpy</a></p>
           </div>
         </div>
       </div>
