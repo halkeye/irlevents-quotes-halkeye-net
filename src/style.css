@@ -1,0 +1,204 @@
+body {
+  margin: 						0px 0px 20px 0px;
+  padding: 					0px 0px 0px 0px ;
+  font-family: 					Arial, sans-serif;
+  font-size: 					75%;
+}
+
+#header_1{
+  margin:						0px 0px 0px 0px;
+  padding:						0px 0px 0px 0px;
+  background-image:				url(/images/top.jpg);
+  background-repeat:				repeat-x;
+  height:						25px;
+  width:						100%px;
+}
+#header_3{
+  margin:						0px 0px 0px 0px;
+  padding:						0px 0px 0px 0px;
+  background-image:				url(/images/sub.jpg);
+  background-repeat:				repeat-x;
+  height:						25px;
+  width:						100%px;
+}
+
+#header_2{
+  color:						#ffffff;
+  font-size:					400%;
+  text-align:					left;
+  margin:						0px 0px 0px 0px;
+  padding:						10px 10px 10px 10px;
+  background-color: 				#99cc00;
+}
+
+#header_2 a:link, #header_2 a:active, #header_2 a:visited, #header_2 a:hover{
+  color:						#ffffff;
+}
+
+h1 {
+  margin:						0px 0px 5px 0px;
+  padding:						0px 0px 0px 0px;
+  color:						#99cc00;
+}
+h2 {
+  margin:						0px 0px 5px 0px;
+  padding:						0px 0px 0px 0px;
+  color:						#99cc00;
+}
+a:link, a:active, a:visited {
+  color: 						#99cc00;
+  font-weight: 					bold;
+  text-decoration: 				none;
+}
+a:hover {
+  text-decoration: 				underline;
+}
+
+code {
+  display: 					block;
+  padding: 					10px;
+  color: 						#6f6f6f;
+  background: 					#f5fae6;
+  font-size: 					1.0em;
+  border-top: 					2px solid #99cc00;
+}
+
+.textbox{
+  padding: 				 	10px 10px 0 10px;
+  background-color:			 	#f5fae6;
+  border: 					 	1px solid #e5f2bf;
+  margin: 					 	10px;
+  color: 					 	#6f6f6f;
+}
+
+p {
+  line-height: 1.5;
+}
+
+#container {
+  width: 					 	850px;
+  margin: 					 	0px 0px 0px 15px;
+  padding:					 	0px 0px 0px 0px;
+  text-align: 				 	left;
+}
+#content {
+  margin: 					 	0px 0px 0px 15px;
+  padding:					 	0px 0px 0px 0px;
+  width: 					 	600px;
+  float: 					 	left;
+}
+
+.meta {
+  background: 				 	#f5fae6;
+  font-size: 				 	80%;
+  padding: 				 	2px;
+}
+
+#left {
+  float: 					 	left;
+  width: 					 	200px;
+  margin: 					 	0px 0px 0px 0px;
+  padding:					 	0px 0px 0px 0px;
+  border-left:				 	1px solid #e5f2bf;
+  border-right:				 	1px solid #e5f2bf;
+  border-bottom:				 	1px solid #e5f2bf;
+}
+
+#left ul{
+  list-style-type: 			 	none;
+  margin: 					 	5px 0px 5px 0px;
+  padding:					 	0px 0px 0px 0px;
+}
+
+#left ul li{
+  list-style-type: 			 	none;
+  margin: 						0px 0px 0px 0px;
+}
+
+#left a:link, #left a:visited, #left a:active{
+  display: 					block;
+  margin: 						0px 0px 0px 0px;
+  width: 					 	180px;
+  padding:						3px 5px 3px 15px;
+}
+#left a:hover{
+  display: 					block;
+  width: 					 	180px;
+  margin: 						0px 0px 0px 0px;
+  padding:						3px 5px 3px 15px;
+  background-color:				#f5fae6;
+}
+
+p.head{
+  background-color:				#f5fae6;
+  margin: 						0px 0px 0px 0px;
+  padding:						5px 5px 5px 5px;
+  color:						#99cc00;
+  font-weight:					bold;
+  font-size: 					120%;
+  border-top:					1px solid #e5f2bf;
+  border-bottom:					1px solid #e5f2bf;
+}
+
+p.lcont{
+  margin: 						0px 0px 0px 0px;
+  padding:						5px 5px 5px 5px;
+}
+
+.textbox{
+  padding: 				 	10px 10px 10px 10px;
+  background-color:			 	#f5fae6;
+  border: 					 	1px solid #e5f2bf;
+  margin: 					 	10px;
+  color: 					 	#6f6f6f;
+}
+
+
+#footer {
+  width:						850px;
+  margin: 						0px 0px 0px 0px;
+  padding:						20px 0px 0px 0px;
+  text-align:					left;
+  clear: 						both;
+  color:						#6f6f6f
+}
+
+#footer p{
+  margin: 						0px 0px 0px 0px;
+  padding:						0px 0px 0px 20px;
+  border-top:					1px solid #e5f2bf;
+}
+
+#searchform{
+  margin: 						0px 0px 0px 0px;
+  padding:						0px 5px 5px 5px;
+}
+
+input {
+  border: 						1px solid #e5f2bf;
+  background: 					#ffffff;
+  padding: 					2px 5px 1px 5px;
+  font-size: 					1.0em;
+}
+
+input:hover {
+  background: 					#ffffff;
+  border: 						1px solid #99cc00;
+  font-size: 					1.0em;
+}
+
+textarea {
+  font-family: 					Arial, sans-serif;
+  font-size: 					1.0em;
+  border: 						1px solid #e5f2bf;
+  padding: 					2px 5px 1px 5px;
+  width: 						450px;
+}
+
+textarea:hover {
+  border: 						1px solid #99cc00;
+}
+img{
+  border: 						none;
+}
+
