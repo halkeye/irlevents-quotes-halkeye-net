@@ -8,18 +8,13 @@ import Quote from '../components/quote';
 
 const IndexPage = ({ data: { allQuotes: { edges } } }) => (
   <Layout>
-    <SEO title="Home" keywords={[`arc`, `irc`, `quotes`]} />
+    <SEO title="Browse Quotes" keywords={[`arc`, `irc`, `quotes`]} />
 
-    <h2>View Quote</h2>
+    <h2>Browse Quotes</h2>
 
     <ul className="quote-list">
       {edges.map(({ node: quote }) => <Quote key={quote.id} {...quote} />)}
     </ul>
-
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 );
 

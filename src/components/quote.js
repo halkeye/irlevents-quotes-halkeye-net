@@ -19,7 +19,13 @@ const Quote = ({ id, rating, votes, submitted, body, tags }) => (
         <div className="quote-tags">
           <p>
             <em className="quote-tags-title">Tags:</em>
-            {(tags || '').split(',').map(tag => <Link key={tag} to={`/tag/${tag}`} title={`View Quotes Tagged ${tag}`}>{tag}</Link>)}
+            <ul style={{ display: 'inline', listStyleType: 'none', marginRight: '1em' }}>
+              {(tags || '').split(',').map(tag => (
+                <li key={tag} style={{ display: 'inline', listStyleType: 'none', marginRight: '1em' }}>
+                  <Link to={`/tag/${tag}`} title={`View Quotes Tagged ${tag}`}>{tag}</Link>
+                </li>
+              ))}
+            </ul>
           </p>
         </div>
       </div>
