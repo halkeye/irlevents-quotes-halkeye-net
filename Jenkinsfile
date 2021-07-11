@@ -29,7 +29,6 @@ pipeline {
 
     stage('Test') {
       steps {
-        sh 'npm run lint:js'
         sh 'npm run test'
       }
     }
